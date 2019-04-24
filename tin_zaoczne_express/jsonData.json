@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Maria",
+        "age": 24,
+        "gender": "Female",
+        "department": "IT",
+        "city": "Warsaw"
+    },
+    {
+        "name": "Krzystof",
+        "age": 26,
+        "gender": "Male",
+        "department": "IT",
+        "city": "Warsaw"
+    },
+    {
+        "name": "Ola",
+        "age": 21,
+        "gender": "Female",
+        "department": "Advertisement",
+        "city": "Warsaw"
+    }
+]
