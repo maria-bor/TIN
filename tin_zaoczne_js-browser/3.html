@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>3.html</title>
+    <meta name="description" content="The HTML5">
+</head>
+
+<body>
+    <header>
+        <h1>Add Person Data</h1>
+    </header>
+
+    <main>
+        <article>
+            <form id="person-data">
+                <div class="row">
+                    <fieldset>
+                        <legend> Insert your data </legend>
+                        <label> Name: <input id="name" name="name" type="text"></label>
+                        <label> Surname: <input id="surname" name="surname" type="text"></label>
+                        <label> Age: <input id="age" name="age" type="text"></label>
+                        <label> City: <input id="city" name="city" type="text"></label>
+                        <button type="button" id='butt'>Add To Table</button>
+                    </fieldset>
+                </div>
+            </form>
+
+            <h3>Person data</h3>
+
+            <div id="tab">
+                <table id="list" cellspacing="0px" cellpadding="20px" text-align="center" border='1'>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Surname</td>
+                            <td>Age</td>
+                            <td>City</td>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </article>
+    </main>
+    <script src="3.js"></script>
+</body>
+
+</html>

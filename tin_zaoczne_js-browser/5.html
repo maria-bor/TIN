@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>5.html</title>
+    <meta name="description" content="The HTML5">
+</head>
+
+<body>
+    <header>
+        <h1>CRUD</h1>
+    </header>
+
+    <main>
+        <article>
+            <form id="person-data" class="divs">
+                <div class="row">
+                    <fieldset>
+                        <legend> Insert/Modify student data </legend>
+                        <label> Name: <input id="name" name="name" type="text"></label>
+                        <label> Surname: <input id="surname" name="surname" type="text"></label>
+                        <label> Index: <input id="index" name="index" type="number"></label>
+                        <button type="button" id='buttAddData'>Add Data Into Table</button>
+                        <button type="button" id='buttModifyData'>Modify Data</button>
+                        <button type="button" id='buttDeleteData'>Delete Data</button>
+                    </fieldset>
+                </div>
+            </form>
+            </br></br></br></br>
+            <form id="marks-data" class="divs">
+                <div class="row">
+                    <fieldset>
+                        <legend> Insert marks of student </legend>
+                        <label> Select student:
+                            <select>
+                                <!-- <option value="volvo">Volvo</option> -->
+                            </select>
+                        </label>
+                        <label> Insert mark: <input id="marks" name="marks" type="number"></label>
+                        <button type="button" id='buttAddMarks'>Add mark</button>
+                    </fieldset>
+                </div>
+            </form>
+            <h3>Person data</h3>
+
+            <div id="row">
+                <table id="table" cellspacing="0px" cellpadding="20px" text-align="center" border='1'>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Surname</td>
+                            <td>Index</td>
+                            <td>Marks</td>
+                            <td>Avr</td>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </article>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="5.js"></script>
+</body>
+
+</html>
