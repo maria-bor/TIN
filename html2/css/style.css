@@ -1,0 +1,18 @@
+form {
+    background-color: bisque;
+    border-style: outset;
+}
+
+input[type="text"], input[type="submit"], input[type="reset"], 
+textarea, select {
+    background-color: rgb(240, 177, 105);
+    border-style: outset;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: bisque
+}
+
+label, input[type=checkbox], input[type=radio] {
+    color: brown;
+}

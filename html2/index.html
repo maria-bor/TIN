@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prosta strona HTML</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <form action="index.html" method="GET">
+        <table>
+            <tr>
+                <td>
+                    <label for="pole_tekstowe">Pole tekstowe:</label>
+                </td>
+                <td>
+                    <input name="nazwa_pola" type="text" id="pole_tekstowe" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="lista_rowijana">Lista rozwijana:</label>
+                </td>
+                <td>
+                    <select name="imie" id="lista_rowijana">
+                        <option selected="selected">Opcja 1</option>
+                        <option value="PL">Polska</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="wielolinijkowe">Pole tekstowe wielolinijkowe:</label>
+                </td>
+                <td>
+                    <textarea name="pole_tekstowe" rows="10" cols="50" id="wielolinijkowe"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="checkbox1">Pole jednokrotnego wyboru (radio):</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="checkboxy1" id="checkbox1" value="1">
+                    <label for="1">Opcja 1</label>
+                    <input type="checkbox" name="checkboxy2" value="2">
+                    <label for="2">Opcja 2</label>
+                    <input type="checkbox" name="checkboxy3" value="3" checked> 
+                    <label for="3">Opcja 3</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="radio1">Pole wielokrotnego wyboru:</label>
+                </td>
+                <td>
+                    <input type="radio" name="radiox" id="radio1" value="1"> 
+                    <label for="1">Opcja 1</label>
+                    <input type="radio" name="radiox" value="2" checked>
+                    <label for="2">Opcja 2</label>
+                    <input type="radio" name="radiox" value="3">
+                    <label for="3">Opcja 3</label>
+                </td>
+            </tr>
+
+        </table>
+        <br/>
+        <br/>
+        <br/>
+        <input type="submit" value="Zatwierdź" />
+        <input type="reset" value="Wyczyść" />
+        <br/>
+        <br/>
+    </form>
+
+</body>
+
+</html>
