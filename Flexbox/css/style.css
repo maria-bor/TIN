@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    color: #DDD;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header img {
+    transform: rotate(3deg);
+    box-shadow: 11px 13px 19px 14px #7a7a7a;
+    max-width: 90%;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 15px;
+}
+
+span {
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-around;
+    align-items: stretch;
+}
+  
+aside.sidegallery img {
+    max-width: 100%;
+}
+  
+aside.sidegallery {
+    text-align: center;
+    width: 30%;
+}
+  
+article {
+    column-count: 3;
+    column-gap: 10px;
+    min-width: 300px;
+    max-width: 70%;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+    min-width: 150px;
+    max-width: 40%;
+}
+
+footer {
+    border-top: 2px dotted gray;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.pquote, .pulledimg {
+    float: left;
+    min-width: 50px;
+    min-height: 70px;
+    max-width: 50%;
+    padding: 8px;
+    margin: 12px;
+}
+  
+blockquote {
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+.float-right {
+  float: right;
+}
+
+h1, blockquote, footer, figcaption {
+    font-family: 'Mali', cursive;
+}
+
+figcaption {
+    color: #DDD
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: #DDD;
+    font-size: 24px;
+}
+
+span::before, span::after {
+    content: "♥";
+}
+  
+@media (max-width: 1200px) {
+    article {
+      column-count: 2; 
+    }
+}
+  
+@media (max-width: 800px) {
+    article {
+      column-count: 1; 
+    }
+    aside.sidegallery {
+      max-width: 100%;
+      width: 100%;
+    }
+}
